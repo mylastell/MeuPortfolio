@@ -28,15 +28,23 @@ ul{
     word-spacing: 50px;
   }
   li{
+    padding: 25px;
     display: inline;
     margin-left: 150px;
     font-weight: 600px;
     font-size: 20px;
     cursor: pointer;
   }
+
+  p{ color: black;
+    padding: 10px; 
+    font-size: 15px;
+
+  }
+
 h1{
     padding: 10px;
-    color: #4B06A3;
+    color: #ff0683;
     display: flex;
     height: 60px; 
 }
@@ -52,6 +60,11 @@ h3{
     padding: 10px; 
     font-size: 20px;
 }
+
+.code{
+  margin-left: 10px;
+}
+
 h4{
 color: white;
 margin-top: 80px;
@@ -66,7 +79,7 @@ h5{
     display: flex;
     height: 35px; 
     font-size: 25px;
-    margin-left:525px;
+    margin-left:485px;
     margin-top: 30px;
 }
 
@@ -83,45 +96,129 @@ h5{
   background: red;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
-  width: 180px;
-  height: 180px;
+  width: 140px;
+  height: 140px;
   align-self: flex-start;
+  display: inline-block;
+       overflow: hidden;
+    border-bottom: 2px solid lightgray;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin: 20px 20px;
+    transition: 1s all;
+    overflow: hidden;
+    cursor: pointer;
 }
+
+.caixa1:hover{
+    transform: scale(1.1);
+    background: white;
+  }
+
 .caixa2{
   background: #efff26;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
-  width: 180px;
-  height: 180px;
+  width: 140px;
+  height: 140px;
   align-self: flex-start;
+  display: inline-block;
+    overflow: hidden;
+    border-bottom: 2px solid lightgray;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin: 20px 20px;
+    transition: 1s all;
+    overflow: hidden;
+    cursor: pointer;
 }
+.caixa2:hover{
+    transform: scale(1.1);
+    background: white;
+  }
 
 .caixa3{
   background: #2FF53E;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
-  width: 180px;
-  height: 180px;
+  width: 140px;
+  height: 140px;
   align-self: flex-start;
+  display: inline-block;
+    width: 200px;
+    overflow: hidden;
+    border-bottom: 2px solid lightgray;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin: 20px 20px;
+    transition: 1s all;
+    overflow: hidden;
+    cursor: pointer;
 }
+
+.caixa3:hover{
+    transform: scale(1.1);
+    background: white;
+  }
 
 .caixa4{
   background: #34F6F9;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
-  width: 180px;
-  height: 180px;
+  width: 140px;
+  height: 140px;
   align-self: flex-start;
+  display: inline-block;
+    width: 200px;
+    overflow: hidden;
+    border-bottom: 2px solid lightgray;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin: 20px 20px;
+    transition: 1s all;
+    overflow: hidden;
+    cursor: pointer;
 }
+
+.caixa4:hover{
+    transform: scale(1.1);
+    background: white;
+  }
+
   .caixa5{
   background: #BB48B6;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
-  width: 180px;
-  height: 180px;
+  width: 140px;
+  height: 140px;
   align-self: flex-start;
+  display: inline-block;
+    width: 200px;
+    overflow: hidden;
+    border-bottom: 2px solid lightgray;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin: 20px 20px;
+    transition: 1s all;
+    overflow: hidden;
+    cursor: pointer;
 
-
+  .caixa5:hover{
+    transform: scale(1.1);
+    background: white;
+  }
+.modalb{
+  padding: 10px;
+  margin-left: 15px;
+}
+.dream{
+  background-color: black;
+}
 }
 
 .links{

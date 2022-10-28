@@ -18,7 +18,7 @@ export default class Home extends React.Component {
         <h2>É sou eu rs'</h2>
 
 
-       <h5>Mylena Stella</h5>
+       <h5>🌺Mylena Stella🌺</h5>
         <Imagem src={Eu} alt="Eu - Mylena Stella" />
         
       <div class= "links">
@@ -32,7 +32,8 @@ export default class Home extends React.Component {
 
         <h3>Inicio de um sonho</h3>
 
-        <a href="https://codepen.io/costa-mfreitas/pen/oNpzgRr">CodePen</a>
+        <button class="dream"><a href="https://codepen.io/costa-mfreitas/pen/oNpzgRr">💭💭💭</a></button>
+        
       </>
     );
   }

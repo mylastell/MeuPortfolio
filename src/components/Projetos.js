@@ -16,8 +16,7 @@ export default class App extends React.Component {
   render() {
     return (
       <div>
-        <h3>Deu tudo Certo!</h3>
-        
+              
        <h3>Meus principais Trabalhos 🖥️</h3>
 
        <h3>Calculadora Cor de Rosa</h3>
